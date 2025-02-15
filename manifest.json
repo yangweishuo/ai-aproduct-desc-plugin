@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "AI 商品详情页文案生成器",
+  "version": "1.2",
+  "description": "使用 AI 自动生成商品详情页文案，具备输入验证、缓存、复制和国际化功能",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "public/icon16.png",
+      "48": "public/icon48.png",
+      "128": "public/icon128.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "clipboardWrite"
+  ],
+  "content_security_policy": {
+    "extension_pages": "default-src 'self'; connect-src https://api.openai.com; style-src 'self' 'unsafe-inline'; script-src 'self' 'wasm-unsafe-eval'; fetch-src 'self' locales/*.json"
+  }
+}

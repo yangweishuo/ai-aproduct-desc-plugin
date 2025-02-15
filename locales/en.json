@@ -1,0 +1,14 @@
+{
+  "title": "AI Product Description Generator",
+  "input_placeholder": "Please enter the product name",
+  "length_short": "Short",
+  "length_medium": "Medium",
+  "length_long": "Long",
+  "generate_button": "Generate Description",
+  "copy_button": "Copy Description",
+  "error_empty_name": "Please enter a valid product name. It cannot be empty.",
+  "error_long_name": "The product name is too long. Please keep it within 100 characters.",
+  "error_generate": "An error occurred while generating the description. Error: ",
+  "copied_success": "The description has been copied to the clipboard.",
+  "copied_error": "An error occurred while copying the description. Please try again later."
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 商品详情页文案生成器</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+<h1>AI 商品详情页文案生成器</h1>
+<!-- 输入商品名称的输入框 -->
+<input type="text" id="product-name" placeholder="请输入商品名称">
+<!-- 选择文案长度的下拉框 -->
+<select id="length-option">
+    <option value="简短">简短</option>
+    <option value="适中" selected>适中</option>
+    <option value="详细">详细</option>
+</select>
+<!-- 生成文案的按钮 -->
+<button id="generate-button">生成文案</button>
+<!-- 显示生成文案的文本框，设置为只读 -->
+<textarea id="description-output" readonly></textarea>
+<!-- 复制生成文案的按钮 -->
+<button id="copy-button">复制文案</button>
+<!-- 引入处理交互逻辑的 JavaScript 文件 -->
+<script src="./js/popup.js"></script>
+</body>
+
+</html>

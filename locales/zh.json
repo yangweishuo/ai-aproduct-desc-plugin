@@ -1,0 +1,14 @@
+{
+  "title": "AI 商品详情页文案生成器",
+  "input_placeholder": "请输入商品名称",
+  "length_short": "简短",
+  "length_medium": "适中",
+  "length_long": "详细",
+  "generate_button": "生成文案",
+  "copy_button": "复制文案",
+  "error_empty_name": "请输入有效的商品名称，不能为空。",
+  "error_long_name": "商品名称过长，请控制在 100 个字符以内。",
+  "error_generate": "生成文案时出错: ",
+  "copied_success": "文案已复制到剪贴板。",
+  "copied_error": "复制文案时出错，请稍后重试。"
+}

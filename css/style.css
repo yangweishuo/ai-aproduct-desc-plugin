@@ -1,0 +1,66 @@
+/* 设置全局字体和页面最小宽度 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 350px;
+    min-width: 300px;
+    padding: 20px;
+    background-color: #f4f4f9; /* 淡蓝色背景，营造舒适氛围 */
+    color: #333; /* 深灰色文字，提高可读性 */
+    border-radius: 8px; /* 圆角边框 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 轻微阴影，增加立体感 */
+}
+
+/* 标题样式 */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2c3e50; /* 深蓝色标题，突出显示 */
+    text-align: center; /* 标题居中 */
+}
+
+/* 输入框、下拉框、按钮和文本域的通用样式 */
+input,
+select,
+button,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* 浅灰色边框 */
+    border-radius: 4px; /* 圆角边框 */
+    font-size: 16px;
+    transition: border-color 0.3s ease; /* 边框颜色过渡动画 */
+}
+
+/* 输入框和下拉框获得焦点时的样式 */
+input:focus,
+select:focus {
+    border-color: #007bff; /* 蓝色边框，突出焦点 */
+    outline: none; /* 去除默认的外边框 */
+}
+
+/* 按钮样式 */
+button {
+    background-color: #007bff; /* 蓝色背景 */
+    color: white; /* 白色文字 */
+    cursor: pointer; /* 鼠标指针变为手型 */
+    transition: background-color 0.3s ease; /* 背景颜色过渡动画 */
+}
+
+/* 按钮悬停时的样式 */
+button:hover {
+    background-color: #0056b3; /* 深蓝色背景，增强交互感 */
+}
+
+/* 按钮禁用时的样式 */
+button:disabled {
+    background-color: #ccc; /* 灰色背景 */
+    cursor: not-allowed; /* 鼠标指针变为禁止符号 */
+}
+
+/* 文本域样式 */
+textarea {
+    height: 180px; /* 增加文本域高度，方便查看生成的文案 */
+    resize: none; /* 禁止用户调整文本域大小 */
+}
